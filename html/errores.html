@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	[% IF error == 1 %]
+	    <meta http-equiv='refresh' content='4; url=index.cgi'>
+		<meta charset="UTF-8">
+		<h3 style = 'color: red'> Los tipos de datos introducidos son incorrectos... </h3>	 
+	[% ELSIF error == 2 %]   
+		<meta http-equiv='refresh' content='4; url=index.cgi'>
+		<meta charset="UTF-8">
+		<h3 style = 'color: red'> El usuario $usuario se encuentra descativado... Consulte a mesa de ayuda </h3>
+	[% ELSIF error == 3 %]   
+		<meta http-equiv='refresh' content='4; url=index.cgi'>
+		<meta charset="UTF-8">
+		<h3 style = 'color: red'> Los datos de acceso son incorrectos...  Usuario:$usuario y Contrase&ntildea: $contrasena </h3>
+	[% ELSIF error == 4 %]   
+		<meta http-equiv='refresh' content='4; url=index.cgi'>
+		<meta charset="UTF-8">
+		<h3 style='color: red;'> No tiene privilegios para estar aqu&iacute;, <b>por favor logueate de nuevo.</b></h3>	
+	[% ELSIF error == 5 %]   
+		<meta http-equiv='refresh' content='4; url=index.cgi'>
+		<meta charset="UTF-8">
+		<h3 style='color: red;'> Su conexi&oacuten ha expirado, <b>saliendo...</b></h3>	
+	[% END %]	
+</body>
+</html>

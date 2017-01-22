@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+	<html lang="es">
+	<head>		
+		<title>Principal</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+		<link rel="stylesheet" href="../css/principal.css">
+	</head>
+	<body >
+		<header class="cabecera">
+			<div class="cabecera_div">
+				<ul class="menu">
+					<li><p>Menu</p>
+						<ul>
+							<li><a href="../cgi-bin/principal.cgi">Inicio</a></li>
+							<li><a href="#respuesta" id="aInsertar">Insertar</a></li>
+							<li><a href="#respuesta" id="aBuscar">Buscar</a></li>
+							<li><a href="exit.cgi">Salir</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="informacion">
+					Bienvenido: <p> $nombre </p> 
+				</div>
+			</div>
+		</header>	
+
+		<div id="respuesta" class="respuesta">
+
+		</div>	
+		<div id="res_buscar" class="res_buscar">
+		</div>
+		<section class="contenido">				
+			<div id="consulta" class="consulta">
+				$consulta				
+			</div>	
+		</section>
+		<footer id="pie" class="pie">
+			<div class="pie_div">
+				Derechos reservados a <a class="litoos" target="_blank" href="https://www.facebook.com/LitoOS86">LitoOS</a> &copy; 2016-2017	
+			</div>
+		</footer>
+	    <!-- // <script type="text/javascript" src="../js/despachador.js"></script>	 -->
+		<script type="text/javascript" src="../js/ajax.js"></script>	
+
+	</body>
+	</html>
+	

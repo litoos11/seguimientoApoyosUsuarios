@@ -1,0 +1,18 @@
+Apache 
+Mysql
+Perl 
+Cpan:
+	XML::Simple //para compilar DBD::mysql
+	CGI //mosulos para cgi
+	DBI //bases de datos
+	DBD::mysql //base de datos mysql
+	PDF::API2  //para pdfs
+	PDF::Create //para pdfs
+	CGI::Ajax  //ajax 
+
+	libmysqlclient-dev 
+	
+
+Ayudas:
+
+	http://perlenespanol.com/foroch

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Login </title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">		
+		<link rel="stylesheet" href="../css/login.css">
+	</head>
+	<body>
+		<div id="idioma">
+			<select name="idioma" id="idiomas">
+				<option value="español">Español</option>
+				<option value="ingles">Inglés</option>
+			</select>
+			<img src="../img/imagen2.jpg" alt="foto imagen" id="logo-c">
+
+		</div><br>
+		<div id="cuadro">
+			<div id="redondo">
+			<img src="../img/imagen.png" alt="foto imagen" id="logo-imagen">
+			<form action="/usuarios_template/cgi-bin/login.cgi" method="post">
+				<div id="formu">
+					<label for="user" id="user">Usuario</label>
+					<input type="text" id="user" name="name">
+				</div>
+				<div id="formu">
+					<label for="pass" id="pass" >Contraseña</label>
+					<input type="password" name="pass">
+				</div>
+				<div id="formu">
+					<button type="submit" name="entrar">Entrar</button>
+				</div>
+			</form>			
+			</div>
+		</div>
+	</body>
+	</html>

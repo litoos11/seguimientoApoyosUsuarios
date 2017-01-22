@@ -1,0 +1,74 @@
+@import url("normalize.css");
+
+body, html{
+	/*background: red;*/
+	font-family: Helvetica, Arial;
+	font-size  : 16px;
+	text-align : center;
+}
+
+button{
+	background  : #1C641C;
+	color       : white;
+	float       : right;
+	margin-right: 1em;
+}
+
+div#idioma{
+	background: #81BEF7;	
+	display   : inline-block;
+	height    : 3em;
+	margin-top: 5%;
+	width     : 40em;
+}
+
+div#cuadro{
+	background: #D8D8D8;
+	display   : inline-block;
+	width     : 40em;
+	height    : 28em;
+}
+
+div#redondo{
+	background   : #FFFFFF;
+	border-radius: 2%;
+	display      : inline-block;
+	width        : 90%;
+	height       : 90%;	
+	margin-top   : 3%;
+	padding-right: 1em;
+}
+
+div#formu{
+	margin-top: 1em;	
+}
+
+form{
+    margin-top: 10em;
+}
+
+input{
+	float: right;
+}
+
+label#user{
+	margin-left: 18em;
+}
+
+label#pass{
+	margin-left: 16.5em;
+}
+img#logo-c{
+	float: left;
+}
+
+img#logo-imagen{
+	float : left;
+	margin: 1em 1em;
+}
+
+#idiomas{	
+	display   : inline-block;	
+	text-align: top;
+	float     : right;
+}
